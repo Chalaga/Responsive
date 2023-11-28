@@ -1,0 +1,92 @@
+:root {
+    --orange: #F16718;
+    --lightorange: #FF9B62;
+    --darkblue: #162542;
+    --darkgrey: #7B8BAD;
+    --grey: #E8EFF2;
+    --white: #ffffff;
+}
+
+:root {
+    --barlow: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    padding-bottom: 32px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--darkblue);
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--darkgrey);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+button,
+.button-1,
+.button-2 {
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.button-1 {
+    width: 175px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.button-1:hover {
+    background-color: var(--lightorange);
+}
+
+.button-2 {
+    width: 175px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: var(--grey);
+    color: #162542;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.button-2:hover {
+    background-color: #162542;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
