@@ -1,155 +1,314 @@
     @import url(./design.css);
 
-body {
-    margin: 0;
-    background-color: var(--white);
-}
-
-* {
-    box-sizing: border-box;
-    font-family: var(--barlow);
-}
-
-.container {
-    width: 100%;
-    padding-inline: 24px;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 23px;
-    padding-bottom: 64px;
-}
-
-.parentbutton-1 {
-    display: flex;
-    gap: 32px;
-    padding-bottom: 67px;
-}
-
-.parentbutton-1 .button-1 {
-    width: 150px;
-    height: 48px;
-}
-
-.release-date {
-    color: var(--darkgrey);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-}
-
-.typemaster-container img {
-    border-radius: 20px;
-    position: sticky;
-    right: 0;
-}
-
-.desktop-keyborad {
-    display: none;
-}
-
-.greybackgraund {
-    display: none;
-}
-
-
-/* Respononsive breakpoints */
-
-@media (min-width: 768px) {
-    .container {
-        padding-inline: 40px;
+    body {
+        margin: 0;
+        background-color: var(--white);
     }
 
-    .typemaster-container img {
-        position: initial;
+    * {
+        box-sizing: border-box;
+        font-family: var(--barlow);
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    header {
+        padding-inline: 24px;
+    }
+
+    .typemasterdiv {
+        padding-inline: 24px;
     }
 
     header .container {
-        padding-top: 40px;
-    }
-
-    .typemaster-container {
         display: flex;
-        padding-right: 0px;
         justify-content: space-between;
+        padding-top: 23px;
+        padding-bottom: 64px;
     }
 
     .typemaster-container p {
-        padding-right: 69px;
-    }
-
-    .typemaster-container h1 {
-        padding-top: px;
+        padding-bottom: 32px;
     }
 
     .parentbutton-1 {
         display: flex;
         gap: 32px;
+        padding-bottom: 67px;
     }
 
-    .parentbutton-1 h1 {
+    .parentbutton-1 .button-1 {
+        width: 150px;
+        height: 48px;
     }
 
-    h1 {
-        margin-bottom: 34px;
+    .release-date {
+        color: var(--darkgrey);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
     }
 
-    p {
-        margin-bottom: 39px;
+    .mobile-keyboard {
+        border-radius: 20px;
+        position: absolute;
+        right: 0;
     }
 
-    .button-1 {
-        width: 175px;
-        height: 58px;
-    }
-
-}
-
-
-@media (min-width: 992px) {
-    .container {
-        padding-inline: 165px;
-    }
-
-    header {
-        padding-bottom: 152px;
-    }
-
-    .typemaster-container {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        padding-bottom: 138px;
-    }
-
-    .button-1 {
-        width: 175px;
-        height: 58px;
-    }
-
-    .button-1,
-    .button-2 {
-        cursor:  pointer;
-    }
-
-    .typemasterdiv {
-        padding-right: 125px; 
-    }
-
-    .mobilekeyboad {
-        display: none;
+    .mirror-mobile-keyboard {
+        opacity: 0;
+        padding-bottom: 24px;
     }
 
     .desktop-keyborad {
-        display: initial;
+        display: none;
     }
 
-    .container .greybackgraund {
-        display: initial;
-        position: absolute;
-        padding-left: 30px  ;
+    .greybackgraund {
+        display: none;
     }
 
-}
+    .orange-keyboard {
+        opacity: 0.7486;
+        mix-blend-mode: multiply;
+        background-color: var(--orange);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .blend-container {
+        display: flex;
+        gap: 22px;
+        padding-bottom: 75px;
+    }
+
+    .blend-container .keyboard-on-tabel {
+        padding-right: 24px;
+        border-radius: 20px;
+    }
+
+    .mechanical {
+        text-align: center;
+        padding-inline: 24px;
+    }
+
+    .mechanical h2 {
+        padding-bottom: 24px;
+        padding-inline: 36px;
+    }
+
+    .tablet-keyboard {
+        display: none;
+    }
+
+    .desktop-orange-keyboard {
+        display: none;
+    }
+
+    .tablet-orange-keyboard {
+        display: none;
+    }
+
+    .tablet-keyboard-on-tabel {
+        display: none;
+    }
+
+    .desktop-keyboard-on-tabel {
+        display: none;
+    }
+
+    .desktop-grey-backgroud {
+        display: none;
+    }
+
+    /* Respononsive breakpoints */
+
+    @media (min-width: 768px) {
+        .container {
+            padding-inline: 40px;
+        }
+
+        .typemaster-container img {
+            position: initial;
+        }
+
+        header .container {
+            padding-top: 40px;
+        }
+
+        .typemaster-container {
+            display: flex;
+            padding-right: 0px;
+            justify-content: space-between;
+        }
+
+        .typemaster-container p {
+            padding-right: 69px;
+        }
+
+        .typemaster-container h1 {
+            padding-top: px;
+        }
+
+        .parentbutton-1 {
+            display: flex;
+            gap: 32px;
+        }
+
+        h1 {
+            margin-bottom: 34px;
+        }
+
+        p {
+            margin-bottom: 39px;
+        }
+
+        .button-1 {
+            width: 175px;
+            height: 58px;
+        }
+
+        .tablet-keyboard {
+            display: initial;
+            padding-bottom: 39px;
+        }
+
+        .mirror-mobile-keyboard {
+            display: none;
+        }
+
+        .mobile-keyboard {
+            display: none;
+        }
+
+        .orange-keyboard {
+            display: none;
+        }
+
+        .desktop-orange-keyboard {
+            display: none;
+        }
+
+        .desktop-keyboard-on-tabel {
+            display: none;
+        }
+
+        .tablet-orange-keyboard {
+            display: initial;
+        }
+
+        .keyboard-on-tabel {
+            display: none;
+        }
+
+        .tablet-keyboard-on-tabel {
+            display: initial;
+        }
+
+        .mechanical {
+            display: flex;
+            gap: 36px;
+            text-align: initial;
+        }
+    }
+
+
+    @media (min-width: 992px) {
+        .container {
+            padding-inline: 165px;
+        }
+
+        /* header {
+            padding-bottom: 152px;
+        } */
+
+        .typemaster-container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-bottom: 138px;
+        }
+
+        .button-1 {
+            width: 175px;
+            height: 58px;
+        }
+
+        .button-1,
+        .button-2 {
+            cursor: pointer;
+        }
+
+        /* .typemasterdiv {
+            padding-right: 125px;
+        } */
+
+        .desktop-keyborad {
+            display: initial;
+        }
+
+        .container .greybackgraund {
+            display: initial;
+            position: absolute;
+            /* padding-left: 30px; */
+            right: 0;
+        }
+
+        .tablet-keyboard {
+            display: none;
+        }
+
+        .orange-keyboard {
+            display: none;
+        }
+
+        .tablet-orange-keyboard {
+            display: none;
+        }
+
+        .keyboard-on-tabel {
+            display: none;
+        }
+
+        .tablet-keyboard-on-tabel {
+            display: none;
+        }
+
+        .mechanical-blend-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+        }
+
+        .mechanical {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mechanical h2 {
+            padding-inline: 0;
+        }
+
+        .desktop-keyboard-on-tabel {
+            display: initial;
+            padding-right: 125px;
+        }
+
+        .desktop-orange-keyboard {
+            display: initial;
+            opacity: 0.7486;
+            mix-blend-mode: multiply;
+            background-color: var(--orange);
+            border-radius: 20px;
+        }
+
+        .desktop-grey-backgroud {
+            display: initial;
+            position: absolute;
+            padding-right : 30px;
+            left: 0;
+
+        }
+    }
