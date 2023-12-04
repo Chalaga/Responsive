@@ -270,9 +270,10 @@
     }
 
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         .container {
-            padding-inline: 165px;
+            width: 1140px;
+            margin: auto;
         }
 
         /* header {
@@ -282,7 +283,6 @@
         .typemaster-container {
             display: flex;
             justify-content: space-between;
-            position: relative;
             padding-bottom: 138px;
         }
 
@@ -302,6 +302,7 @@
 
         .desktop-keyborad {
             display: initial;
+            z-index: 1;
         }
 
         .container .greybackgraund {
@@ -309,6 +310,7 @@
             position: absolute;
             /* padding-left: 30px; */
             right: 0;
+            z-index: 0;
         }
 
         .tablet-keyboard {
@@ -364,7 +366,6 @@
             position: absolute;
             padding-right: 30px;
             left: 0;
-
         }
 
         .iconcontainer {
