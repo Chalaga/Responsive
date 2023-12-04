@@ -1,0 +1,95 @@
+@import url(./Design/colors.css);
+@import url(./Design/typograohy.css);
+@import url(./Design/buttons.css);
+
+* {
+    font-family: var(--Plusjakartasans);
+}
+
+body {
+    margin: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 38px;
+}
+
+.container {
+    width: 343px;
+    margin: auto;
+}
+
+h2 {
+    padding-bottom: 26px;
+}
+
+.getstarted-container p {
+    padding-bottom: 24px;
+}
+
+.woman-svg {
+    width: 100%;
+}
+
+.rectangle {
+    display: none;
+}
+
+.tablet-woman-svg {
+    display: none;
+}
+
+.tablet-rectangle {
+    display: none;
+}
+
+/* Responsive breakpoint */
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .rectangle {
+        display: initial;
+    }
+
+    .getstarted-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 33px 1px;
+        position: relative;
+    }
+
+    .woman-svg {
+        display: none;
+    }
+
+    .tablet-woman-svg {
+        display: initial;
+    }
+
+    .tablet-rectangle {
+        display: initial;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .rectangle {
+        display: initial;
+    }
+
+    .tablet-rectangle {
+        display: none;
+    }
+}

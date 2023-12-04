@@ -1,0 +1,58 @@
+:root {
+    --Plusjakartasans: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    /* font-feature-settings: 'clig' off, 'liga' off; */
+}
+
+h1 {
+    color: var(--darkblue);
+    font-size: 56px;
+    font-weight: 800;
+}
+
+h2 {
+    color: var(--darkblue);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h3 {
+    color: var(--darkblue);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+h4 {
+    color: var(--darkblue);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+p {
+    color: var(--grey);
+    margin: 0;
+}
+
+.paragraph-m {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.paragraph-s {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.skilled {
+    color: var(--darkblue);
+    font-size: 28px;
+    font-weight: 800;
+}

@@ -1,0 +1,44 @@
+@import url(./colors.css);
+
+button {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-1 {
+    background-color: var(--darkblue);
+    border-radius: 28px;
+}
+
+.button-1:hover {
+    background-color: var(--lightpurple);
+    border-radius: 28px;
+}
+
+.button-2 {
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.button-2:hover {
+    background-color: var(--button-2-hover);
+    border-radius: 31.5px;
+}
+
+.button-3 {
+    background-color: var(--mixedpurple);
+    border-radius: 28px;
+}
+
+.button-3:hover {
+    background-color: var(--button-3-hover);
+    border-radius: 28px;
+}
