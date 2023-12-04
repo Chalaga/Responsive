@@ -53,3 +53,12 @@ const otherproducts = [
 
 const filteredOtherProducts = otherproducts.filter(product => product.price > 240);
 console.log(filteredOtherProducts);
+
+/* დავალება 4 */
+/* დაწერე ფუნქცია, რომელსაც გადაეცემა რიცხვების მასივი და დააბრუნებს მასივში არსებული რიცხვების სამმაგ მნიშვნელობებს */
+// გადასაცემი მასივი
+const numbers = [33, 10, 99, 95];
+
+const multipliedNumbers = numbers.map(number => number * 3);
+console.log(multipliedNumbers);
+
