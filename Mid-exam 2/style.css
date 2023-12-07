@@ -6,6 +6,10 @@
     font-family: var(--Plusjakartasans);
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     margin: 0;
 }
@@ -32,7 +36,6 @@ h2 {
 }
 
 .woman-svg {
-    width: 100%;
     /* margin-bottom: 90px;  */
 }
 
@@ -139,7 +142,7 @@ footer button {
         grid-template-rows: 1fr;
         gap: 33px 1px;
         margin-top: 67px;
-        margin-bottom: 250px;
+        margin-bottom: 210px;
     }
 
     header {
@@ -162,6 +165,7 @@ footer button {
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 11px;
         grid-row-gap: 56px;
+        margin-bottom: 86px
     }
 
     .box1 {
@@ -172,6 +176,11 @@ footer button {
 
     .box6 {
         margin-bottom: 0;
+    }
+
+    footer {
+        padding-inline: 40px;
+        padding-block: 36px;
     }
 
 }
@@ -190,7 +199,7 @@ footer button {
     }
 
     .getstarted-container {
-        margin-bottom: 384px;
+        margin-bottom: 250px
     }
 
     .desktop-woman-svg {
@@ -205,6 +214,7 @@ footer button {
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 30px;
         grid-row-gap: 80px;
+        margin-bottom: 140px;
     }
 
     .box1 {
@@ -219,5 +229,10 @@ footer button {
 
     .box6 {
         margin-bottom: 0;
+    }
+
+    footer {
+        padding-inline: 165px;
+        padding-block: 32px;
     }
 }
