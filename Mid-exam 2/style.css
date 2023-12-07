@@ -67,22 +67,22 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         gap: 33px 1px;
+        /* position: relative;  */
+        padding-top: 67px;
+    }
+
+    header {
+        position: relative;
     }
 
     .woman-svg {
         display: none;
     }
 
-    .rectangle {
-        display: initial;
-        position: absolute;
-        width: 216.54px;
-        height: 688.557px;
-    }
-
-
     .tablet-woman-svg {
         display: initial;
+        position: absolute;
+        top: 0;
     }
 }
 
@@ -91,18 +91,18 @@ h2 {
         width: 1140px;
     }
 
-    .rectangle {
-        display: initial;
-        position: absolute;
-        width: 317px;
-        height: 1008px;
+    header {
+        position: relative;
     }
-
+    
     .tablet-woman-svg {
         display: none;
     }
 
+
     .desktop-woman-svg {
         display: initial;
+        position: absolute;
+        top: 0;
     }
 }
