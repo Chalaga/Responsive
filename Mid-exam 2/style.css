@@ -92,4 +92,8 @@ h2 {
     .tablet-rectangle {
         display: none;
     }
+
+    .tablet-woman-svg {
+        display: none;
+    }
 }
