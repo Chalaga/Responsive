@@ -6,6 +6,9 @@
     border: none;
 }
 
+body {
+}
+
 .container {
     margin: auto;
     width: 327px;
@@ -131,7 +134,7 @@
     line-height: 26px;
 }
 
-.mobile-how-we-work {
+.more-about {
     background-color: var(--purple);
     align-items: center;
     display: flex;
@@ -139,7 +142,7 @@
     margin-bottom: 140px;
 }
 
-.mobile-how-we-work h1 {
+.more-about h1 {
     padding-top: 72px;
     color: var(--white);
     text-align: center;
@@ -151,7 +154,7 @@
     padding-bottom: 40px;
 }
 
-.mobile-how-we-work button {
+.more-about button {
     background: none;
     width: 160px;
     height: 40px;
@@ -160,9 +163,7 @@
     margin-bottom: 72px;
 }
 
-.desktop-how-we-work {
-    display: none;
-}
+
 
 /* Responsive */
 
@@ -317,39 +318,30 @@
         text-align: start;
     }
 
-    .how-we-work {
-        display: flex;
-    }
-
-    .desktop-how-we-work {
-        display: initial;
-        display: flex;
+    .more-about {
+        flex-direction: row;
         justify-content: space-between;
-        background: var(--purple);
         padding-block: 69px;
-
+        padding-left: 81px;
+        padding-right: 80px;
     }
 
-    .desktop-how-we-work h1 {
-        color: var(--white);
-        font-family: var(--serif);
+    .more-about h1 {
+        padding: 0;
         font-size: 56px;
         font-weight: 400;
         line-height: 56px;
-        letter-spacing: -0.556px;
-        padding-left: 81px;
-        padding-right: 554px;
-    }
-    
-    .desktop-how-we-work button {
-        background: none;
-        width: 160px;
-        height: 40px;
-        color: var(--white);
-        border: 2px solid var(--white);
+        letter-spacing: -0.778px;
+        width: 475px;
     }
 
-    .mobile-how-we-work {
-        display: none;
+    .more-about button {
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .more-about button:hover {
+        background: var(--white);
+        color: var(--black)
     }
 }
