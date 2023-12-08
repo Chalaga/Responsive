@@ -6,8 +6,7 @@
     border: none;
 }
 
-body {
-}
+body {}
 
 .container {
     margin: auto;
@@ -163,7 +162,50 @@ body {
     margin-bottom: 72px;
 }
 
+footer {
+    background: #FAFAFA;
+}
 
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 88px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer-line {
+    width: 327px;
+    height: 1px;
+    background: #DADADA;
+    margin-bottom: 40px;
+}
+
+.four-words {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+.four-words h1 {
+    padding-bottom: 36px;
+    color: #837D88;
+    font-family: var(--karla);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+span div {
+    padding-bottom: 16px;
+    color: var(--purple);
+    font-family: var(--karla);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
 
 /* Responsive */
 
@@ -343,5 +385,33 @@ body {
     .more-about button:hover {
         background: var(--white);
         color: var(--black)
+    }
+
+    .footer-line {
+        width: 1110px;
+        height: 1px;
+        background: #DADADA;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four-words {
+        gap: 50px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo-container {
+        flex-direction: row;
+        text-align: start;
+        gap: 854px;
+    }
+
+    .logo:hover {
+        background-image: url(./public/images/logohover.svg);
+        cursor: pointer;
     }
 }
