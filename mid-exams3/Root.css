@@ -1,0 +1,12 @@
+:root {
+    --black: #2C2830;
+    --grey: #837D88;
+    --purple: #2D2641;
+    --lightgrey: #96A9C6;
+    --white: #96A9C6;
+}
+
+:root {
+    --serif: 'DM Serif Display', serif;
+    --karla: 'Karla', sans-serif;
+}

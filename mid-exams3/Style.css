@@ -1,0 +1,93 @@
+@import url(./Root.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 540px;
+}
+
+.header-container nav {
+    display: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 31px;
+}
+
+/* Responsive */
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1140px;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .header-container nav {
+        display: initial;
+        display: flex;
+        align-items: center;
+    }
+
+    nav div {
+        color: var(--grey);
+        font-family: var(--karla);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+
+    nav div:hover {
+        color: var(--black);
+    }
+
+    .how-we-work {
+        padding-right: 25px;
+    }
+
+    .blog {
+        padding-right: 26px;
+    }
+
+    .account {
+        padding-right: 33px;
+    }
+
+
+    .view-plans {
+        border: 2px solid var(--black);
+        color: var(--black);
+        background: none;
+        width: 146px;
+        height: 40px;
+    }
+
+    .view-plans:hover {
+        border: 1.5px solid var(--black);
+        background: var(--black);
+        color: var(--white);
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+        padding-inline: 29px;
+        padding-block: 13px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
