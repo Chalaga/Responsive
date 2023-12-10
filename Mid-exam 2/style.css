@@ -139,6 +139,7 @@ footer button {
         gap: 33px 1px;
         margin-top: 67px;
         margin-bottom: 210px;
+        position: relative;
     }
 
     header {
@@ -150,9 +151,10 @@ footer button {
     }
 
     .tablet-woman-svg {
-        display: initial;
+        display: flex;
         position: absolute;
-        top: 0;
+        right: -24px;
+        top: -159px;
     }
 
     .box-container {
@@ -181,7 +183,7 @@ footer button {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .container {
         width: 1140px;
     }
@@ -195,13 +197,16 @@ footer button {
     }
 
     .getstarted-container {
-        margin-bottom: 250px
+        margin-bottom: 250px;
+        position: relative;
+        padding-top: 85px;
     }
 
     .desktop-woman-svg {
-        display: initial;
+        display: flex;
         position: absolute;
-        top: 0;
+        top: -177px;
+        right: -130px;
     }
 
     .box-container {
