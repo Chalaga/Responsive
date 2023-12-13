@@ -73,7 +73,7 @@ form {
 }
 
 input {
-    margin-bottom: 16px;
+    /* margin-bottom: 20px; */
     border-radius: 5px;
     border: 1px solid #DEDEDE;
     background: #FFF;
@@ -85,6 +85,11 @@ input {
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0.25px;
+}
+
+.text {
+    padding-top: 6px;
+    padding-bottom: 19px;
 }
 
 .freetrial {
