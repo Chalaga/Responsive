@@ -1,0 +1,133 @@
+@import url(./fonts.css);
+
+body {
+    margin: 0;
+    background: #EEE;
+}
+
+.maincontainer {
+    display: flex;
+    width: 992px;
+    margin: auto;
+    gap: 296px;
+    margin-block: 162px;
+}
+
+
+.background {
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 23px;
+}
+
+.backgroundcontainer {
+    position: relative;
+}
+
+.info {
+    width: 373px;
+}
+
+.todolist {
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.georgian-time {
+    position: absolute;
+    color: #FFF;
+    font-family: var(--russo);
+    font-weight: 400;
+    right: 24px;
+    top: 115px;
+}
+
+/* .georgian-time .date {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-self: end;
+} */
+
+.georgian-time h1 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.data {
+    display: flex;
+    margin: auto;
+    padding-bottom: 36PX;
+    position: relative;
+    width: 373px;
+    height: 50px;
+}
+
+.checkbox {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+}
+
+#note {
+    font-family: var(--inter);
+    border-radius: 5px;
+    background: #EBEFF2;
+    border-color: transparent;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 48px;
+    padding-block: 12px;
+    margin-right: 10px;
+}
+
+.addicon {
+    padding-block: 10px;
+    padding-inline: 25px;
+    border-radius: 5px;
+    background: #20EEB0;
+}
+
+.listcontainer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 373px;
+    padding-bottom: 24px;
+}
+
+.listcontainer h2 {
+    color: #0D0D0D;
+    font-family: var(--inter);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.listcontainer p {
+    color: #888;
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.imglistcontainer {
+    display: flex;
+    gap: 14px;
+}
+
+.last-todolist {
+    padding-bottom: 54px;
+}
+
+.logo {
+    display: flex;
+}
