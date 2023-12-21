@@ -11,7 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <script src="./App.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+    <script defer src="./App.js"></script>
 
 </head>
 
@@ -28,20 +32,34 @@
             </div>
             <form>
                 <label for="firsname"></label>
-                <input type="text" name="firsname" id="firsname" placeholder="First Name">
-                <span class="firstnametext text"></span>
+                <div class="input-wrapper">
+                    <input type="text" name="firsname" id="firsname" placeholder="First Name">
+                    <img src="./public/images/!Icon.svg" alt="" class="icon">
+                </div>
+                <span class="firstnametext text">First Name cannot be empty</span>
 
                 <label for="lastname"></label>
-                <input type="text" name="lastname" id="lastname" placeholder="Last Name">
-                <span class="lastnametext text"></span>
+                <div class="input-wrapper">
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                    <img src="./public/images/!Icon.svg" alt="" class="icon">
+                </div>
+                <span class="lastnametext text">Last Name cannot be empty</span>
+
 
                 <label for="email"></label>
-                <input type="email" name="" id="email" placeholder="Email Address">
-                <span class="emailtext text"></span>
-                
+                <div class="input-wrapper">
+                    <input type="email" name="" id="email" placeholder="Email Address">
+                    <img src="./public/images/!Icon.svg" alt="" class="icon">
+                </div>
+                <span class="emailtext text">Looks like this is not an email</span>
+
+
                 <label for="Password "></label>
-                <input type="password" name="" id="Password" placeholder="Password">
-                <span class="passwordtext text"></span>
+                <div class="input-wrapper">
+                    <input type="password" name="" id="Password" placeholder="Password">
+                    <img src="./public/images/!Icon.svg" alt="" class="icon">
+                </div>
+                <span class="passwordtext text">Password cannot be empty</span>
 
                 <button class="freetrial">CLAIM YOUR FREE TRIAL</button>
                 <div class="terms-and-conditions">By clicking the button, you are agreeing to our<span> Terms and
