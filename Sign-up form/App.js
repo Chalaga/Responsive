@@ -119,7 +119,7 @@ function validatePassword(password) {
 submit.addEventListener('click', (e) => {
     e.preventDefault();
 
-    if (Password.value === '' || !validateEmail(Password.value)) {
+    if (Password.value === '' || !validatePassword(Password.value)) {
         Password.style.borderColor = 'red';
         Password.setAttribute('placeholder', '');
         Password.classList.add('invalid-Password');
