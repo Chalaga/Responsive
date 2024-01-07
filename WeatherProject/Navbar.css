@@ -1,0 +1,41 @@
+@import url(./Styles/Fonts.css);
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #1E2C37 0%, #1F3341 100%);
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 387px;
+    margin: auto;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 26px;
+}
+
+nav {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: var(--poppins);
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.44px;
+}
+
+.partofnavbar {
+    display: flex;
+    gap: 30px;
+    padding-inline: 40px;
+    padding-block: 23px;
+    margin-bottom: 4px;
+}
