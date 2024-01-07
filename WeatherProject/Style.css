@@ -356,3 +356,88 @@ header {
 .menuhtml {
     display: none;
 }
+
+.Pagemenu {
+    display: none;
+}
+
+.Navbardesktop {
+    display: none;
+}
+
+.settingscontainer {
+    display: none;
+}
+
+@media (min-width: 1400px) {
+
+    body {
+        background: #121212;
+    }
+
+
+    .Mobileheader {
+        display: none;
+    }
+
+    header {
+        width: 121px;
+
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: var(--poppins);
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 103px;
+        padding-bottom: 11px;
+    }
+
+    .line {
+        width: 121px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.30);
+        margin-bottom: 25px;
+    }
+
+    .desktopheader {
+        border-radius: 34px;
+        background: linear-gradient(180deg, #1E2C37 0%, #1F3341 100%);
+        backdrop-filter: blur(14px);
+        margin: 0;
+        margin-left: 21px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 342px;
+
+    }
+
+    .Navbardesktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 45px;
+        gap: 45px;
+    }
+
+    .settingscontainer {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 45px;
+        gap: 45px;
+        padding-bottom: 45px;
+    }
+
+    .darkmode {
+        display: flex;
+        align-self: center;x
+    }
+
+}
