@@ -1,5 +1,4 @@
-@import url(./fonts.css);
-
+@import url(./styles/fonts.css);
 body {
     margin: 0;
     background: #EEE;
@@ -124,9 +123,9 @@ form {
     gap: 14px;
 }
 
-.last-todolist {
+/* .last-todolist {
     padding-bottom: 54px;
-}
+} */
 
 .logo {
     display: flex;
