@@ -1,6 +1,9 @@
 let title = document.querySelectorAll(".title")
 let desktopDate = document.querySelector(".desktopDate")
 let time = document.querySelector(".time")
+let main = document.querySelector(".main")
+let burgermenu = document.querySelector(".burgermenu")
+let backmenu = document.querySelector(".backmenu")
 
 const data = {
     "city": "Tbilisi",
@@ -154,5 +157,16 @@ let p = title[1]
 h1.append(Object.values(data)[0])
 p.append(Object.values(data)[0])
 
-console.log(date)
 console.log(Object.values(data));
+
+console.log(main);
+console.log(burgermenu);
+
+burgermenu.addEventListener("click", () => {
+    main.classList.add("active")
+})
+
+backmenu.addEventListener("click", () => {
+    main.classList.remove("active")
+
+})

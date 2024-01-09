@@ -47,18 +47,12 @@
         margin-bottom: 25px;
     }
 
-    .toggleimg {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 45px;
-    }
-
+    .toggleimg,
     .optionsmenu {
         display: flex;
         flex-direction: column;
-        gap: 45px;
         align-items: center;
+        gap: 45px;
     }
 
     .optionsmenu .settings {
@@ -397,10 +391,7 @@
         background: linear-gradient(99deg, rgba(191, 213, 219, 0.46) -4.23%, rgba(236, 207, 214, 0.25) 38.08%, #F5EEEF 64.04%);
     }
 
-    .hilightcontainer {
-        display: initial;
-    }
-
+    .hilightcontainer,
     .hilightimage,
     .Advertising {
         display: initial;
