@@ -1,5 +1,8 @@
-@import url(Fonts.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;;
+}
 
 * {
     font-family: var(--poppins);
@@ -265,7 +268,7 @@
     position: absolute;
     top: -950px;
     z-index: 2;
-    background: linear-gradient(180deg, #1E2C37 0%, #1F3341 100%);
+    background-color: #ECEDF1;
     height: 844px;
 }
 
@@ -280,12 +283,17 @@ header {
     margin: 20px 19px 26px;
 }
 
-nav {
-    color: rgba(255, 255, 255, 0.70);
-    font-family: var(--poppins);
+.navi {
+    color: rgba(0, 0, 0, 0.70);
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 0.44px;
+    text-decoration: none;
+}
+
+.partofnavbar:hover {
+    cursor: pointer;
+    background: linear-gradient(92deg, #000 -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
 }
 
 .partofnavbar {

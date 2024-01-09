@@ -30,23 +30,15 @@
                         <div class="slector">
                             <div class="partofnavbar">
                                 <img src="./Assets/Mobileicons/home.svg">
-                                <nav>Home</nav>
+                                <a class="navi" href="./Index.html">Home</a>
                             </div>
                             <div class="partofnavbar">
                                 <img src="./Assets/Mobileicons/darksun.svg">
-                                <nav>25 Days Forecast</nav>
+                                <a class="navi" href="">25 Days Forecast</a>
                             </div>
                             <div class="partofnavbar">
                                 <img src="./Assets/Mobileicons/sagittarius.svg">
-                                <nav>Horoscope</nav>
-                            </div>
-                            <div class="partofnavbar">
-                                <img src="./Assets/Mobileicons/mobile.svg">
-                                <nav>SMS Notification</nav>
-                            </div>
-                            <div class="partofnavbar">
-                                <img src="./Assets/Mobileicons/currencies.svg">
-                                <nav>Currency Converter</nav>
+                                <a class="navi" href="">Horoscope</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +68,7 @@
                             <img src="./Assets/Mobileicons/Sunny.svg">
                             <h1 class="title"></h1>
                         </div>
-                        <h1 class="celsius">+18°</h1>
+                        <h1 class="celsius"></h1>
                         <p>Sunny, clear skies, swirling winds </p>
                     </div>
                     <div class="Desktoppresentforcast">
@@ -89,7 +81,7 @@
                         <div class="howthewather">
                             <img src="./Assets/DesktopIcons/Sunny.svg">
                             <div class="desktopcelsius">
-                                <h1>+18°</h1>
+                                <h1 class="celsius"></h1>
                                 <p>Sunny, clear skies, swirling winds </p>
                             </div>
                         </div>
@@ -220,11 +212,11 @@
                             <div class="boxcontainer">
                                 <div>
                                     <img width="15px" src="./Assets/Mobileicons/mobilehilights/sunriselogo.svg">
-                                    <p>5:30 AM</p>
+                                    <p class="sunrise"></p>
                                 </div>
                                 <div>
                                     <img width="15px" src="./Assets/Mobileicons/mobilehilights/sunsetlogo.svg">
-                                    <p>6:40 AM</p>
+                                    <p class="sunset"></p>
                                 </div>
                             </div>
 
@@ -232,17 +224,15 @@
                         <div class="box box4">
                             <h1>Humidity</h1>
                             <div class="mobilehumiditycontainer">
-                                <div>30 <span>%</span></div>
+                                <div class="humid"></div>
                                 <img width="19px" src="./Assets/Mobileicons/mobilehilights/Humidity.svg">
                             </div>
-                            <p>The dew point is 17
-                                right now
-                            </p>
+                            <p class="dewpoint"></p>
                         </div>
                         <div class="box box5">
                             <h1>Visibility</h1>
                             <div class="mobilehumiditycontainer">
-                                <div>02 <span>Km</span></div>
+                                <div class="visibility"></div>
                                 <img width="19px" src="./Assets/DesktopIcons/Todayhighlight/eye.svg">
                             </div>
                             <p>Haze is affecting visibility</p>
@@ -250,7 +240,7 @@
                         <div class="box box6">
                             <h1>Feels like</h1>
                             <div class="mobilehumiditycontainer">
-                                <div>24°</div>
+                                <div class="feels"></div>
                                 <img width="19px" src="./Assets/Mobileicons/mobilehilights/thermometer-temperature-svgrepo-com 1.svg"
                                 >
                             </div>
@@ -275,11 +265,11 @@
                                 <div class="riseandset">
                                     <div class="riseandsetcontainer">
                                         <div class="sunriseandset">Sunrise</div>
-                                        <div class="time">5:30 AM</div>
+                                        <div class="sunrise"></div>
                                     </div>
                                     <div class="riseandsetcontainer">
                                         <div class="sunriseandset">Sunset</div>
-                                        <div class="time">6:40 AM</div>
+                                        <div class="sunset"></div>
                                     </div>
                                 </div>
                             </div>
@@ -288,18 +278,17 @@
                             <div class="humiditycontainer">
                                 <div class="humidity">
                                     <p>Humidity</p>
-                                    <h1>30 <span>%</span></h1>
+                                    <h1 class="humid"></h1>
                                 </div>
                                 <div>
                                     <img src="./Assets/DesktopIcons/Todayhighlight/Humidity.svg">
-                                    <p>The dew point is 17</p>
-                                    <p>right now</p>
+                                    <p class="dewpoint"></p>
                                 </div>
                             </div>
                             <div class="humiditycontainer">
                                 <div>
                                     <p>Visibility</p>
-                                    <h1>02 <span>Km</span></h1>
+                                    <h1 class="visibility"></h1>
                                 </div>
                                 <div>
                                     <img src="./Assets/DesktopIcons/Todayhighlight/eye.svg">
@@ -311,7 +300,7 @@
                                     <p>Feels like</p>
                                     <div class="feelsLike">
                                         <img src="./Assets/DesktopIcons/Todayhighlight/Group 213.svg">
-                                        <h1>24°</h1>
+                                        <h1 class="feels"></h1>
                                     </div>
                                 </div>
                                 <p>Humidity is making it feel hotter.</p>
