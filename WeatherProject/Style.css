@@ -182,7 +182,9 @@ body {
 
 .desktopchooseyourdate,
 .desktopsevendaysinfo,
-.hilightcontainer {
+.mainhighlight,
+.hilightimage,
+.Advertising {
     display: none;
 }
 
@@ -192,4 +194,89 @@ body {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    margin-top: 10px;
+
+}
+
+.box {
+    border-radius: 18px;
+    background: linear-gradient(180deg, #DEE4E7 0%, #F4F2F2 100%);
+}
+
+.box h1 {
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 13px;
+}
+
+.box1 img {
+    padding-top: 28px;
+    padding-inline: 56px;
+    padding-bottom: 10px;
+}
+
+.box1 p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.box2 img {
+    padding-inline: 23px;
+    padding-top: 13px;
+}
+
+.box3 img {
+    padding-top: 10px;
+}
+
+.box3 div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-inline: 12px;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.box3 .boxcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobilehumiditycontainer{
+    display: flex;
+    padding-inline: 20px;
+    justify-content: space-between;
+
+}
+
+.mobilehumiditycontainer div {
+    color: #000;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.mobilehumiditycontainer span {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box4 p,
+.box5 p,
+.box6 p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    padding-inline: 20px;
 }

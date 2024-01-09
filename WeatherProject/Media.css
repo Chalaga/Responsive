@@ -343,7 +343,8 @@
     .humiditycontainer {
         display: flex;
         border-radius: 18px;
-        background: rgba(253, 32, 32, 0.3);
+        background: radial-gradient(344.65% 167.74% at 0% 0%, rgba(0, 0, 0, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%);
+        backdrop-filter: blur(14px);
         align-items: center;
         gap: 120px;
         /* justify-content: space-between; */
@@ -360,6 +361,19 @@
         color: #000;
         font-size: 40px;
         font-weight: 500;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .humiditycontainer span {
+        color: rgba(0, 0, 0, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .feelsLike {
+        display: flex;
+        gap: 11px;
     }
 
     .hilightimagecontainer {
@@ -386,4 +400,10 @@
     .hilightcontainer {
         display: initial;
     }
+
+    .hilightimage,
+    .Advertising {
+        display: initial;
+    }
+
 }
