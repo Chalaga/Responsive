@@ -1,0 +1,187 @@
+@import url(Fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--poppins);
+    margin: 0;
+}
+
+.container {
+    width: 378px;
+    margin: auto;
+}
+
+.mobilenavbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 69px;
+
+}
+
+.mobileimgnavbar {
+    display: flex;
+    justify-content: center;
+}
+
+.mobileimgnavbar .searchicon {
+    padding-left: 25px;
+}
+
+.firstbackground {
+    background: #00000026;
+    width: 84px;
+    border-radius: 50%;
+}
+
+.mobilepresentforcast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.presentday {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.mobilepresentforcast .celsius {
+    color: #000;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.mobilepresentforcast p {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    padding-inline: 105px;
+    text-align: center;
+}
+
+.desktopnavbarcontainer,
+.Desktoppresentforcast {
+    display: none;
+}
+
+.presentforcast {
+    display: flex;
+    padding-inline: 24px;
+    justify-content: space-evenly;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #DEE4E7 0%, #F4F2F2 100%);
+    padding-block: 25px;
+}
+
+.hourly {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.hourly .date {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hourly .celsiusbyhour {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.choosedatecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 14px;
+}
+
+.choosedate {
+    border-radius: 17px;
+    background: rgba(112, 112, 112, 0.20);
+    display: flex;
+    align-items: center;
+    padding-inline: 18px;
+}
+
+.choosedate span {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    height: fit-content;
+    padding-block: 7px;
+}
+
+.choosedatecontainer h1 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sevendaysforcast {
+    margin-top: 10px;
+    padding-inline: 24px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #DEE4E7 0%, #F4F2F2 100%);
+}
+
+
+.shvididgisprognozi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sevendayforcastcontainer {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    padding-bottom: 18px;
+}
+
+.shvididgisprognozi div {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.shvididgisprognozi span {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.54px;
+}
+
+.shvididgisprognozi p {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shvididgisprognozi .dayoftheweek {
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.desktopchooseyourdate,
+.desktopsevendaysinfo,
+.hilightcontainer {
+    display: none;
+}

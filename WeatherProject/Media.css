@@ -1,0 +1,388 @@
+@media (min-width: 1920px) {
+
+    .container {
+        margin: 0;
+        display: flex;
+        gap: 30px;
+    }
+
+    .mobilepresentforcast,
+    .mobilenavbarcontainer {
+        display: none;
+    }
+
+    .desktopnavbarcontainer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        border-radius: 34px;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(14px);
+        margin-left: 21px;
+        margin-top: 25px;
+        justify-content: space-between;
+        width: fit-content;
+
+    }
+
+    .desktoptogglemenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desktoptogglemenu h1 {
+        color: rgba(0, 0, 0, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        padding-inline: 36PX;
+        padding-top: 103px;
+        padding-bottom: 11px;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.30);
+        margin-bottom: 25px;
+    }
+
+    .toggleimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .optionsmenu {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .optionsmenu .settings {
+        padding-bottom: 45px;
+    }
+
+    .Desktoppresentforcast {
+        display: flex;
+        flex-direction: column;
+        border-radius: 34px;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(14px);
+        margin-top: 27px;
+    }
+
+    .today {
+        display: flex;
+        padding-inline: 33px;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 59px;
+    }
+
+    .howthewather {
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+
+    .desktopcelsius {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 58px;
+    }
+
+    .desktopcelsius h1 {
+        color: #000;
+        font-size: 55px;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+    }
+
+    .desktopcelsius p {
+        width: 212px;
+        padding-right: 45px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.70);
+        font-size: 18px;
+    }
+
+    .locationanddate {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        padding-left: 30px;
+        padding-top: 26px;
+        padding-bottom: 57px;
+    }
+
+    .location {
+        display: flex;
+        gap: 9px;
+    }
+
+    .location p {
+        color: rgba(0, 0, 0, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .date {
+        display: flex;
+    }
+
+    .date p {
+        color: rgba(0, 0, 0, 0.70);
+        padding-left: 9px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .date .time {
+        padding-left: 17px;
+        color: rgba(0, 0, 0, 0.90);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .presentforcast {
+        display: none;
+    }
+
+    .choosedatecontainer,
+    .mobilehighlights {
+        display: none;
+    }
+
+    .desktopchooseyourdate {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .desktopchooseyourdate h1 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .desktopchooseyourdate .desktopchoosedate {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.28px;
+    }
+
+    .desktopchoosedate {
+        display: flex;
+        align-items: center;
+        border-radius: 17px;
+        background: rgba(112, 112, 112, 0.20);
+        padding-inline: 12px;
+        padding-block: 5px;
+    }
+
+    .sevendayforcastcontainer {
+        padding-top: 40px;
+    }
+
+    .desktopsevendaysinfo {
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.50);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+
+    .desktoptomorrowinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .desktoptomorrowinfo p {
+        color: rgba(0, 0, 0, 0.70);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .desktoptomorrowinfo h1 {
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .dateandtimecontainer {
+        display: flex;
+        gap: 30px;
+    }
+
+    .mainhighlight {
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 34px;
+        margin-top: 25px;
+        background: radial-gradient(344.65% 167.74% at 0% 0%, rgba(0, 0, 0, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%);
+        backdrop-filter: blur(14px);
+
+    }
+
+    .mainhighlighth {
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        padding-top: 23px;
+    }
+
+    .desktopmoon {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .desktopmoon h1 {
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-bottom: 21px;
+    }
+
+    .desktopmoon img {
+        padding-inline: 60px;
+    }
+
+    .desktopmoon p {
+        color: rgba(0, 0, 0, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 23px;
+    }
+
+    .imghilights {
+        display: flex;
+        gap: 29px;
+    }
+
+    .imghilights div {
+        background: rgba(255, 255, 255, 0.30);
+        border-radius: 18px;
+
+    }
+
+    .UVimage {
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        height: fit-content;
+    }
+
+    .UVimage img {
+        padding-inline: 23px;
+    }
+
+    .UVimage h1 {
+        padding-left: 20px;
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.54px;
+    }
+
+    .riseandset {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 20px;
+    }
+
+    .riseandsetcontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sunriseandsunset {
+        margin-right: 30px;
+    }
+
+    .sunriseandsunset h1 {
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.54px;
+    }
+
+    .riseandsetcontainer .sunriseandset {
+        color: #FAC32D;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.42px;
+    }
+
+    .textimghilights {
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        gap: 29px;
+        margin-bottom: 20px;
+    }
+
+    .humiditycontainer {
+        display: flex;
+        border-radius: 18px;
+        background: rgba(253, 32, 32, 0.3);
+        align-items: center;
+        gap: 120px;
+        /* justify-content: space-between; */
+        padding: 20px;
+    }
+
+    .humiditycontainer p {
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .humiditycontainer h1 {
+        color: #000;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .hilightimagecontainer {
+        display: flex;
+        gap: 15px;
+        padding-inline: 30px;
+        padding-block: 46px;
+    }
+
+    .Advertising {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 30px;
+        margin-top: 36px;
+        margin-bottom: 19px;
+    }
+
+    .hilightimage {
+        border-radius: 34px;
+        background: linear-gradient(99deg, rgba(191, 213, 219, 0.46) -4.23%, rgba(236, 207, 214, 0.25) 38.08%, #F5EEEF 64.04%);
+    }
+
+    .hilightcontainer {
+        display: initial;
+    }
+}
