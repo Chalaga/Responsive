@@ -151,7 +151,8 @@
         font-weight: 600;
     }
 
-    .presentforcast {
+    .presentforcast,
+    .mobilehilights {
         display: none;
     }
 

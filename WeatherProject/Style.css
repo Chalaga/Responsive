@@ -185,3 +185,7 @@ body {
 .hilightcontainer {
     display: none;
 }
+
+.mobilehilights {
+    display: grid;
+}
