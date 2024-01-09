@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+
+    <script defer src="../main.js"></script>
+    <script defer src="../burgermenu.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbarcontainer">
+            <div class="mobilenavbarcontainer">
+                <div>
+                    <img src="../Assets/Mobileicons/lightmode.svg">
+                </div>
+                <div class="mobileimgnavbar">
+                    <img class="languageicon" src="../Assets/Mobileicons/ENG.svg">
+                    <img class="searchicon" src="../Assets/Mobileicons/search.svg">
+                    <img class="burgermenu" src="../Assets/Mobileicons/menu.svg">
+                </div>
+                <div class="main">
+                    <header>
+                        <img width="26px" class="backmenu" src="../Assets/Mobileicons/cancel.svg">
+                    </header>
+                    <div class="slector">
+                        <div class="partofnavbar">
+                            <img src="../Assets/Mobileicons/home.svg">
+                            <a class="navi" href="./Index.html">Home</a>
+                        </div>
+                        <div class="partofnavbar">
+                            <img src="../Assets/Mobileicons/darksun.svg">
+                            <a class="navi" href="./forcast.html">25 Days Forecast</a>
+                        </div>
+                        <div class="partofnavbar">
+                            <img src="../Assets/Mobileicons/sagittarius.svg">
+                            <a class="navi" href="./horoscop.html">Horoscope</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="desktopnavbarcontainer">
+                <div class="desktoptogglemenu">
+                    <h1>Name</h1>
+                    <div class="line"></div>
+                    <div class="toggleimg">
+                        <img width="32px" src="../Assets/DesktopIcons/Desktopmenu.svg">
+                        <img width="32px" src="../Assets/DesktopIcons/sagittarius.svg">
+                        <img width="32px" src="../Assets/DesktopIcons/mobile.svg">
+                        <img width="32px" src="../Assets/DesktopIcons/Currencies.svg">
+                    </div>
+                </div>
+                <div class="optionsmenu">
+                    <img width="32px" src="../Assets/DesktopIcons/ENG.svg">
+                    <img width="82px" src="../Assets/Mobileicons/lightmode.svg">
+                    <img width="32px" class="settings" src="../Assets/DesktopIcons/settings.svg">
+                </div>
+            </div>
+        </div>
+        <div class="dateandtimecontainer">
+            <div>
+                <div class="mobilepresentforcast">
+                    <div class="presentday">
+                        <img src="../Assets/Mobileicons/Sunny.svg">
+                        <h1 class="title"></h1>
+                    </div>
+                    <h1 class="celsius"></h1>
+                    <p>Sunny, clear skies, swirling winds </p>
+                </div>
+                <div class="Desktoppresentforcast">
+                    <div class="today">
+                        <h1>Today</h1>
+                        <div class="desktopsearchicon">
+                            <img width="36px" class="search" src="../Assets/DesktopIcons/search.svg">
+                        </div>
+                    </div>
+                    <div class="howthewather">
+                        <img src="../Assets/DesktopIcons/Sunny.svg">
+                        <div class="desktopcelsius">
+                            <h1 class="celsius"></h1>
+                            <p>Sunny, clear skies, swirling winds </p>
+                        </div>
+                    </div>
+                    <div class="todayline">
+                        <img src="../Assets/DesktopIcons/Line 2.svg">
+                    </div>
+                    <div class="locationanddate">
+                        <div class="location">
+                            <img src="../Assets/DesktopIcons/location-pin.svg">
+                            <p class="title"></p>
+                        </div>
+                        <div class="date">
+                            <img src="../Assets/DesktopIcons/calendar-empty-alt.svg">
+                            <p class="desktopDate"></p>
+                            <div class="time"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="presentforcast">
+                    <div class="hourly">
+                        <div class="date">Now</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">18°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">12</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">18°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">13</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">15°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">14</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">25°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">15</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">22°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">16</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">24°</div>
+                    </div>
+                    <div class="hourly">
+                        <div class="date">17</div>
+                        <img src="../Assets/Mobileicons/todaysun.svg">
+                        <div class="celsiusbyhour">26°</div>
+                    </div>
+                </div>
+                <div class="desktopchooseyourdate">
+                    <h1>7 days Forecast</h1>
+                    <div class="desktopchoosedate">
+                        <span>7 day</span>
+                        <img src="../Assets/DesktopIcons/angle-down-small.svg">
+                    </div>
+                </div>
+                <div class="sevendaysforcast">
+                    <div class="choosedatecontainer">
+                        <h1>7 days Forecast</h1>
+                        <div class="choosedate">
+                            <span>7 day</span>
+                            <img src="../Assets/Mobileicons/angle-down-small.svg">
+                        </div>
+                    </div>
+                    <div class="sevendayforcastcontainer">
+                        <div class="shvididgisprognozi">
+                            <img src="../Assets/Mobileicons/todaysun.svg">
+                            <div class="gradusi">+18°<span>/+17</span></div>
+                            <p>11 September</p>
+                            <div class="dayoftheweek">Today</div>
+                        </div>
+                        <div class="shvididgisprognozi">
+                            <img src="../Assets/Mobileicons/cloudy.svg">
+                            <div class="gradusi">+24°<span>/+17</span></div>
+                            <p>12 September</p>
+                            <div class="dayoftheweek">Tue</div>
+                        </div>
+                        <div class="shvididgisprognozi">
+                            <img src="../Assets/Mobileicons/lightning.svg">
+                            <div class="gradusi">+20°<span>/+14</span></div>
+                            <p>13 September</p>
+                            <div class="dayoftheweek">Wed</div>
+                        </div>
+                        <div class="shvididgisprognozi">
+                            <img src="../Assets/Mobileicons/rain.svg">
+                            <div class="gradusi">+26°<span>/+16</span></div>
+                            <p>14 September</p>
+                            <div class="dayoftheweek">Thu</div>
+                        </div>
+                        <div class="shvididgisprognozi">
+                            <img src="../Assets/Mobileicons/windy.svg">
+                            <div class="gradusi">+19°<span>/+15</span></div>
+                            <p>15 September</p>
+                            <div class="dayoftheweek">Fri</div>
+                        </div>
+                        <div class="desktopsevendaysinfo">
+                            <img width="56px" src="../Assets/Mobileicons/cloudy.svg">
+                            <div class="desktoptomorrowinfo">
+                                <p>Tomorrow</p>
+                                <h1>15°</h1>
+                                <p>Fog Storm Day</p>
+                            </div>
+                            <img src="../Assets/DesktopIcons/Vector.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hilightcontainer">
+                <div class="mobilehilights">
+                    <div class="box box1">
+                        <h1>Moon phase</h1>
+                        <img src="../Assets/Mobileicons/mobilehilights/New moon.svg">
+                        <p>Full moon</p>
+                    </div>
+                    <div class="box box2">
+                        <h1>UV Index</h1>
+                        <img src="../Assets/Mobileicons/mobilehilights/UV.svg">
+                    </div>
+                    <div class="box box3">
+                        <h1>Sunrise & Sunset</h1>
+                        <img src="../Assets/Mobileicons/mobilehilights/MobileSunset.svg">
+                        <div class="boxcontainer">
+                            <div>
+                                <img width="15px" src="../Assets/Mobileicons/mobilehilights/sunriselogo.svg">
+                                <p class="sunrise"></p>
+                            </div>
+                            <div>
+                                <img width="15px" src="../Assets/Mobileicons/mobilehilights/sunsetlogo.svg">
+                                <p class="sunset"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="box box4">
+                        <h1>Humidity</h1>
+                        <div class="mobilehumiditycontainer">
+                            <div class="humid"></div>
+                            <img width="19px" src="../Assets/Mobileicons/mobilehilights/Humidity.svg">
+                        </div>
+                        <p class="dewpoint"></p>
+                    </div>
+                    <div class="box box5">
+                        <h1>Visibility</h1>
+                        <div class="mobilehumiditycontainer">
+                            <div class="visibility"></div>
+                            <img width="19px" src="../Assets/DesktopIcons/Todayhighlight/eye.svg">
+                        </div>
+                        <p>Haze is affecting visibility</p>
+                    </div>
+                    <div class="box box6">
+                        <h1>Feels like</h1>
+                        <div class="mobilehumiditycontainer">
+                            <div class="feels"></div>
+                            <img width="19px"
+                                src="../Assets/Mobileicons/mobilehilights/thermometer-temperature-svgrepo-com 1.svg">
+                        </div>
+                        <p>Humidity is making it feel hotter</p>
+                    </div>
+                </div>
+                <div class="mainhighlight">
+                    <h1 class="mainhighlighth">Today’s Highlight</h1>
+                    <div class="imghilights">
+                        <div class="desktopmoon">
+                            <h1>Moon phase</h1>
+                            <img src="../Assets/DesktopIcons/Todayhighlight/Full Moon.svg">
+                            <p>New moon</p>
+                        </div>
+                        <div class="UVimage">
+                            <h1>UV Index</h1>
+                            <img width="274px" src="../Assets/DesktopIcons/Todayhighlight/UV.svg">
+                        </div>
+                        <div class="sunriseandsunset">
+                            <h1>Sunrise & Sunset</h1>
+                            <img src="../Assets/DesktopIcons/Todayhighlight/Sunrise.svg">
+                            <div class="riseandset">
+                                <div class="riseandsetcontainer">
+                                    <div class="sunriseandset">Sunrise</div>
+                                    <div class="sunrise"></div>
+                                </div>
+                                <div class="riseandsetcontainer">
+                                    <div class="sunriseandset">Sunset</div>
+                                    <div class="sunset"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textimghilights">
+                        <div class="humiditycontainer">
+                            <div class="humidity">
+                                <p>Humidity</p>
+                                <h1 class="humid"></h1>
+                            </div>
+                            <div>
+                                <img src="../Assets/DesktopIcons/Todayhighlight/Humidity.svg">
+                                <p class="dewpoint"></p>
+                            </div>
+                        </div>
+                        <div class="humiditycontainer">
+                            <div>
+                                <p>Visibility</p>
+                                <h1 class="visibility"></h1>
+                            </div>
+                            <div>
+                                <img src="../Assets/DesktopIcons/Todayhighlight/eye.svg">
+                                <p>Haze is affecting visibility</p>
+                            </div>
+                        </div>
+                        <div class="humiditycontainer">
+                            <div>
+                                <p>Feels like</p>
+                                <div class="feelsLike">
+                                    <img src="../Assets/DesktopIcons/Todayhighlight/Group 213.svg">
+                                    <h1 class="feels"></h1>
+                                </div>
+                            </div>
+                            <p>Humidity is making it feel hotter.</p>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="Advertising">Advertising</h1>
+                <div class="hilightimage">
+                    <div class="hilightimagecontainer">
+                        <img src="../Assets/DesktopIcons/Todayhighlight/Firstimage.svg">
+                        <img src="../Assets/DesktopIcons/Todayhighlight/Secondimage.svg">
+                        <img src="../Assets/DesktopIcons/Todayhighlight/Third.svg">
+                        <img src="../Assets/DesktopIcons/Todayhighlight/forth.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -143,9 +143,6 @@ const data = {
 let title = document.querySelectorAll(".title")
 let desktopDate = document.querySelector(".desktopDate")
 let time = document.querySelector(".time")
-let main = document.querySelector(".main")
-let burgermenu = document.querySelector(".burgermenu")
-let backmenu = document.querySelector(".backmenu")
 let celsius = document.querySelectorAll(".celsius")
 let feels = document.querySelectorAll(".feels")
 let humid = document.querySelectorAll(".humid")
@@ -199,14 +196,6 @@ let sunset2 = sunset[1]
 sunset1.append(data.current_weather.sunset)
 sunset2.append(data.current_weather.sunset)
 
-burgermenu.addEventListener("click", () => {
-    main.classList.add("active")
-})
-
-backmenu.addEventListener("click", () => {
-    main.classList.remove("active")
-    
-})
 
 console.log(data);
 console.log(data.current_weather.humidity);
