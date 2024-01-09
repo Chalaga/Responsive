@@ -1,0 +1,80 @@
+@import url(Fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--poppins);
+    margin: 0;
+}
+
+.container {
+    width: 378px;
+    margin: auto;
+}
+
+.mobilenavbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 69px;
+
+}
+
+.mobileimgnavbar {
+    display: flex;
+    justify-content: center;
+}
+
+.mobileimgnavbar .searchicon {
+    padding-left: 25px;
+}
+
+.firstbackground {
+    background: #00000026;
+    width: 84px;
+    border-radius: 50%;
+}
+
+.HoroscopContainer {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    gap: 80px;
+}
+
+.HoroscopContainer h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.66px;
+    padding-top: 39px;
+}
+
+.MainHoroscopContainer h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    padding-inline: 40px;
+    margin-top: 55px;
+
+}
+
+.MainHoroscopContainer span {
+    background: linear-gradient(180deg, #2E386B 46.43%, #D1D1D1 110.05%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.MainHoroscopContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
