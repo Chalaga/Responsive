@@ -28,14 +28,11 @@
     letter-spacing: 0.3px;
     padding-inline: 40px;
     margin-top: 55px;
-
-}
-
-.MainHoroscopContainer span {
     background: linear-gradient(180deg, #2E386B 46.43%, #D1D1D1 110.05%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 .MainHoroscopContainer {
