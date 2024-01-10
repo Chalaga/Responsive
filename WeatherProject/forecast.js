@@ -123,7 +123,6 @@ const hourlyForecast = [
 
 let forecast = document.querySelector(".forecast")
 
-
 hourlyForecast.map((item) => {
     let img = document.createElement("img")
     let div = document.createElement("div")
