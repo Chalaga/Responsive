@@ -142,7 +142,6 @@ hourlyForecast.map((item) => {
         img.src = "/Assets/forecasticons/partlycloudy.svg"
         
     }
-    div.append(img)
 })
 
 

@@ -9,3 +9,30 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.forecast img {
+    width: 76px;
+    height: 76px;
+}
+
+.forecast div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.66px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #DEE4E7 0%, #F4F2F2 100%);
+    padding-top: 44px;
+    padding-bottom: 13px;
+}
