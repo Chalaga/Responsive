@@ -127,27 +127,23 @@ let forecast = document.querySelector(".forecast")
 hourlyForecast.map((item) => {
     let img = document.createElement("img")
     let div = document.createElement("div")
+
+    let subdiv = document.createElement("div")
+    let h1 = document.createElement("h1")
+    let h2 = document.createElement("h2")
+    h1.append(Object.values(item.temperature).join(""))
+    h2.append(Object.values(item.hour).join(""))
+    subdiv.append(h1)
+    subdiv.append(h2)
     div.append(img)
-    div.append(Object.values(item.temperature).join(""))
-    div.append(Object.values(item.hour).join(""))
+    div.append(subdiv)
     forecast.append(div)
-    console.log(item);
+    
     if (item.condition === "Sunny"){
         img.src = "/Assets/forecasticons/sunny.svg"
-        
     }else if (item.condition === "Cloudy"){
         img.src = "/Assets/forecasticons/cloudy.svg"
-        
     }else if (item.condition === "Partly cloudy"){
         img.src = "/Assets/forecasticons/partlycloudy.svg"
-        
     }
 })
-
-
-
-
-
-
-// console.log(Object.values(data.hourly_forecast[0]));
-// console.log(data)
